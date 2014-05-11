@@ -1,15 +1,227 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title></title>
+    <meta charset="utf-8">
+    <title>TechJam - Pune's Thriving Tech Community</title>
+    <meta name="description" content="TechJam is a non-profit initiative to build a community of technies who are interested in learning and exploring new technology trends.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="/css/bootswatch.min.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="/js/html5shiv.js"></script>
+    <script src="/js/respond.min.js"></script>
+    <![endif]-->
 </head>
 <body>
-<h1>TechJam</h1>
-<h3>TechJam is a non-profit initiative to build a community of technies who are interested in learning and exploring new technology trends.</h3>
-<p>As of now, we plan to host our meetups every alternative weeks. IDeaS.com has graciously accepted to host these meetups.</p>
-<p>Following are the planned meetups:</p>
-<ol>
-<li>Functional Programming with Clojure by Baishampayan Ghose on May 15th @ 5:00 PM</li>
-<li>Architecture of Errorception (Node.js + MongoDB) by Rakesh Pai on May 30th @ 5:00 PM</li>
-</ol>
+<div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="/" class="navbar-brand">TechJam</a>
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="upcoming-meetups">Upcoming Meetups <span class="caret"></span></a>
+                    <ul class="dropdown-menu" aria-labelledby="themes">
+                        <li><a href="#functional_programming">Why Functional Programming Matters Today by BG</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#nodejs">Architecture of Errorception by Rakesh Pai</a></li>
+                        <li><a href="#inverting_testing_pyramid">Inverting the Testing Pyramid by Naresh Jain</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#about_us">About Us</a>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="mailto:nashjain@gmail.com?subject=TechJam">Contact Us</a></li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+<div class="page-header" id="banner">
+    <div class="row">
+        <div class="col-lg-6">
+            <h1>TechJam</h1>
+
+            <p class="lead">TechJam is a non-profit initiative to build a community of techies, who are interested in learning and exploring new technologies.</p>
+        </div>
+        <div class="col-lg-6" style="padding: 0 15px;">
+            <div class="well sponsor">
+                <h4 style="margin-top: 0; text-align: center">Coming Up Next!</h4>
+                <span style="float: left; margin-right: 15px;">
+                  <img src="/images/bg.png">
+                </span>
+
+                <div class="clearfix">
+                    <p><a href="#functional_programming">Why Functional Programming Matters Today</a></p>
+
+                    <p><a href="http://www.linkedin.com/in/ghoseb" target="_blank">Baishampayan Ghose</a></p>
+
+                    <p>Thursday, May 15th @ 6:00 PM</p>
+
+                    <p>Location: <a href="https://goo.gl/maps/osU2y">IDeaS.com, Banner Road, Pune</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Typography
+================================================== -->
+<div style="margin-top: -30px">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="page-header">
+                <h2 id="type">Upcoming Meetups</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Headings -->
+
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="bs-component">
+                <a name="functional_programming"></a>
+                <span style="float: left; margin-right: 15px;">
+                  <img src="/images/bg.png">
+                </span>
+
+                <div class="clearfix">
+                    <p><a href="#functional_programming">Why Functional Programming Matters Today</a></p>
+
+                    <p><a href="http://www.linkedin.com/in/ghoseb" target="_blank">Baishampayan Ghose</a></p>
+
+                    <p>Thursday, May 15th @ 6:00 PM</p>
+
+                    <p>Location: <a href="https://goo.gl/maps/osU2y">IDeaS.com, Banner Road, Pune</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="bs-component">
+                <a name="nodejs"></a>
+                <span style="float: left; margin-right: 15px;">
+                  <img src="/images/rakeshpai.png">
+                </span>
+
+                <div class="clearfix">
+                    <p><a href="#nodejs">Architecture of Errorception (Node.js + MongoDB)</a></p>
+
+                    <p><a href="https://errorception.com/" target="_blank">Rakesh Pai</a></p>
+
+                    <p>Friday, May 30th @ 5:00 PM</p>
+
+                    <p>Location: <a href="https://goo.gl/maps/osU2y">IDeaS.com, Banner Road, Pune</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="margin-top: 40px">
+        <div class="col-lg-6">
+            <div class="bs-component">
+                <a name="inverting_testing_pyramid"></a>
+                <span style="float: left; margin-right: 15px;">
+                  <img src="/images/NareshJain.png">
+                </span>
+
+                <div class="clearfix">
+                    <p><a href="#inverting_testing_pyramid">Inverting the Testing Pyramid</a></p>
+
+                    <p><a href="http://nareshjain.com/about" target="_blank">Naresh Jain</a></p>
+
+                    <p>Thursday, June 12th @ 6:00 PM</p>
+
+                    <p>Location: <a href="https://goo.gl/maps/osU2y">IDeaS.com, Banner Road, Pune</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="bs-component">
+                <a name="unknown"></a>
+                <span style="float: left; margin-right: 15px;">
+                  <img src="/images/mystery-man.png">
+                </span>
+
+                <div class="clearfix">
+                    <p><a href="#unknown">Your Topic</a></p>
+
+                    <p><a href="/" target="_blank">Your Name</a></p>
+
+                    <p>Thursday, June 26th @ 6:00 PM</p>
+
+                    <p>Location: <a href="https://goo.gl/maps/osU2y">IDeaS.com, Banner Road, Pune</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+<div style="margin-top: 30px">
+    <a name="about_us"></a>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="page-header">
+                <h2>About Us</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="lead">
+                <p>When <a href="http://nareshjain.com">Naresh Jain</a> was visiting Pune to work with a local company, he realized that there were many interesting companies in the area, but they all operated as islands. To break the ice and get the local techies to share their experience with each other, he decided to start a small meetup group called <a href="/">TechJam</a> .</p>
+                <p>Naresh was really happy when he got support from <a href="http://ideas.com" target="_blank">IDeaS.com</a> to host these meetups. Hopefully in future more companies will support this initiative and we'll spread out to other companies.</p>
+                <p>Please email <a href="mailto:nashjain@gmail.com?subject=TechJam">Naresh</a>, if:</p>
+                <ul>
+                    <li>you are interested in volunteering as a coordinator or</li>
+                    <li>your company is interested in hosting a future meetup or</li>
+                    <li>you are interested in presenting at our meetup</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<footer>
+    <div class="row">
+        <div class="col-lg-12">
+
+            <ul class="list-unstyled">
+                <li class="pull-right"><a href="#top">Back to top</a></li>
+                <li><a href="https://twitter.com/nashjain">Twitter</a></li>
+                <li><a href="https://github.com/techjam/">GitHub</a></li>
+            </ul>
+            <p>Made by <a href="http://nareshjain.com" rel="nofollow">Naresh Jain</a> and released under <a href="https://creativecommons.org/licenses/by-nc/3.0/" target="_blank">CC BY-NC 3.0</a> . Contact him at <a href="mailto:nashjain@gmail.com">nashjain@gmail.com</a>.</p>
+
+            <p>Theme by <a href="http://thomaspark.me" rel="nofollow">Thomas Park</a>, based on <a href="http://getbootstrap.com" rel="nofollow">Bootstrap</a>. Icons from <a href="http://fortawesome.github.io/Font-Awesome/" rel="nofollow">Font Awesome</a>. Web fonts from <a href="http://www.google.com/webfonts" rel="nofollow">Google</a>.</p>
+
+        </div>
+    </div>
+
+</footer>
+
+
+</div>
+
+
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/bootswatch.js"></script>
 </body>
 </html>
